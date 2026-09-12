@@ -16,6 +16,11 @@ The system transforms retail transaction data into meaningful business insights 
 
 ---
 
+## 🌐 Live Project:
+[https://lnkd.in/dBTCgMzd](https://retail-analytics-ai-forecasting.streamlit.app/)
+
+---
+
 ## 🎯 Objectives
 
 The main objectives of this project are:
