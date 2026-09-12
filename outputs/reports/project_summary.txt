@@ -1,0 +1,131 @@
+RETAIL ANALYTICS & AI-POWERED SALES FORECASTING SYSTEM
+============================================================
+
+Developer: Mohammad Dhilawala
+Project Type: Academic Major Project
+
+PROJECT OVERVIEW
+----------------
+An interactive Streamlit-based retail intelligence system combining
+data analytics, forecasting, store segmentation and business insights.
+
+DATASET
+-------
+Records analyzed: 73,000
+Original columns: 19
+Analysis period: January 2023 to December 2024
+Engineered dataset: 26 columns
+
+DATA QUALITY
+------------
+Missing values: 0
+Duplicate rows: 0
+Invalid dates: 0
+Negative sales/units: 0
+
+WORKFLOW
+--------
+1. Data cleaning and validation
+2. Feature engineering
+3. Exploratory data analysis
+4. Sales forecasting
+5. K-Means store segmentation
+6. Anomaly detection
+7. AI-powered business recommendations
+8. Interactive Streamlit dashboard
+
+FEATURE ENGINEERING
+-------------------
+Year, Month, Month Name, Quarter, Day, Day of Week and Week of Year.
+
+EDA
+---
+The dashboard analyzes sales by:
+- Month and year
+- Product category
+- Region
+- Store
+- Customer type
+- Payment mode
+- Brand
+- Promotion
+- Holiday
+- Discount
+- Stock
+- Store rating
+
+FORECASTING
+-----------
+Daily observations: 731
+Monthly observations: 24
+
+Training period: January 2023 to June 2024
+Testing period: July 2024 to December 2024
+
+Baseline validation:
+MAE  = ₹54,133,965.84
+RMSE = ₹62,528,487.48
+MAPE = 2.76%
+
+Linear Regression:
+MAE  = ₹77,078,130.50
+RMSE = ₹88,357,187.71
+MAPE = 3.93%
+
+Moving Average:
+MAE  = ₹72,432,293.09
+RMSE = ₹85,281,871.92
+MAPE = 3.69%
+
+The dashboard uses the developed Exponential Smoothing forecasting model
+for the future six-month forecast.
+
+SIX-MONTH FORECAST
+------------------
+January 2025: ₹1,907,873,266.04
+February 2025: ₹1,907,920,624.16
+March 2025: ₹1,907,960,952.83
+April 2025: ₹1,907,995,295.45
+May 2025: ₹1,908,024,540.52
+June 2025: ₹1,908,049,444.71
+
+Total: ₹11,447,824,124
+Average per month: ₹1,907,970,687
+
+STORE SEGMENTATION
+------------------
+K-Means segmentation produced:
+High Value/Price Stores: 3
+High Volume Stores: 3
+Lower Performance Stores: 2
+
+BUSINESS INTELLIGENCE
+---------------------
+The dashboard identifies category leaders, regional leaders, top stores,
+customer behavior patterns, unusual sales periods and management
+recommendations.
+
+DASHBOARD
+---------
+Executive Overview
+Sales Intelligence
+Forecast Lab
+Store Intelligence
+AI Insights
+
+Interactive filters:
+Date range, Region, Store and Product Category.
+
+TECHNOLOGY
+----------
+Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly,
+Scikit-learn, Statsmodels, Streamlit and Jupyter Notebook.
+
+CONCLUSION
+----------
+The project converts retail transaction data into actionable business
+intelligence through descriptive analytics, predictive forecasting,
+machine-learning-based store segmentation and automated recommendations.
+
+Developed by: Mohammad Dhilawala
+Retail Analytics & AI-Powered Sales Forecasting System
